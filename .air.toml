@@ -1,0 +1,9 @@
+tmp_dir = "build"
+
+[build]
+  bin = "./build/manga-hub.exe"
+  cmd = "go build -o ./build/manga-hub.exe ./cmd"
+
+[log]
+time = true
+color = true
